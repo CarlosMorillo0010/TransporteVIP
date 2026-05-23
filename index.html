@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ÉLITE TRANSFER | Transporte VIP de Lujo</title>
+  <meta name="description" content="Servicio de transporte VIP exclusivo. Choferes profesionales, flota de lujo y puntualidad garantizada para ejecutivos y eventos premium." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo" id="logo-link">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">ÉLITE<span class="logo-accent">TRANSFER</span></span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#flota" class="nav-link">Flota</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+        <li><a href="#contacto" class="nav-cta" id="nav-cta-btn">Reservar Ahora</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="img/hero_car.png" alt="Limousine VIP de lujo" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge" id="hero-badge">
+        <span class="badge-dot"></span>
+        Disponible 24 / 7 · 365 días
+      </div>
+      <h1 class="hero-title">
+        Transporte VIP<br />
+        <em>de Alto Standing</em>
+      </h1>
+      <p class="hero-subtitle">
+        Elegancia, discreción y puntualidad absoluta.<br />
+        Para quienes exigen lo mejor en cada trayecto.
+      </p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-gold" id="hero-reserve-btn">Reservar Ahora</a>
+        <a href="#servicios" class="btn btn-ghost" id="hero-services-btn">Ver Servicios</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-target="1200">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Clientes VIP</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="15">0</span><span class="stat-suffix">K+</span>
+          <span class="stat-label">Viajes Realizados</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num" data-target="8">0</span><span class="stat-suffix"></span>
+          <span class="stat-label">Años de Experiencia</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Descubrir</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ========== RIBBON ========== -->
+  <div class="ribbon" aria-hidden="true">
+    <div class="ribbon-track">
+      <span>Aeropuertos</span><span class="ribbon-sep">◆</span>
+      <span>Eventos Corporativos</span><span class="ribbon-sep">◆</span>
+      <span>Bodas de Lujo</span><span class="ribbon-sep">◆</span>
+      <span>Traslados Ejecutivos</span><span class="ribbon-sep">◆</span>
+      <span>Tours Exclusivos</span><span class="ribbon-sep">◆</span>
+      <span>Seguridad Privada</span><span class="ribbon-sep">◆</span>
+      <span>Aeropuertos</span><span class="ribbon-sep">◆</span>
+      <span>Eventos Corporativos</span><span class="ribbon-sep">◆</span>
+      <span>Bodas de Lujo</span><span class="ribbon-sep">◆</span>
+      <span>Traslados Ejecutivos</span><span class="ribbon-sep">◆</span>
+      <span>Tours Exclusivos</span><span class="ribbon-sep">◆</span>
+      <span>Seguridad Privada</span><span class="ribbon-sep">◆</span>
+    </div>
+  </div>
+
+  <!-- ========== SERVICIOS ========== -->
+  <section id="servicios" class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que ofrecemos</span>
+        <h2 class="section-title">Servicios <em>Exclusivos</em></h2>
+        <p class="section-desc">Cada servicio diseñado para superar sus expectativas con el máximo confort y profesionalismo.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" id="service-airport">
+          <div class="service-icon">✈</div>
+          <h3>Transfer Aeropuerto</h3>
+          <p>Recogida y entrega puntual en todos los aeropuertos. Seguimiento de vuelos en tiempo real.</p>
+          <a href="#contacto" class="service-link">Reservar →</a>
+        </div>
+        <div class="service-card featured" id="service-corporate">
+          <div class="service-badge-tag">Más popular</div>
+          <div class="service-icon">💼</div>
+          <h3>Ejecutivo Corporativo</h3>
+          <p>Traslados para ejecutivos y delegaciones de empresa. Privacidad y eficiencia garantizadas.</p>
+          <a href="#contacto" class="service-link">Reservar →</a>
+        </div>
+        <div class="service-card" id="service-events">
+          <div class="service-icon">🥂</div>
+          <h3>Eventos & Galas</h3>
+          <p>Llegue en grande a bodas, galas y cenas de gala. Servicio de chófer por horas.</p>
+          <a href="#contacto" class="service-link">Reservar →</a>
+        </div>
+        <div class="service-card" id="service-security">
+          <div class="service-icon">🛡</div>
+          <h3>Seguridad Ejecutiva</h3>
+          <p>Choferes con formación en seguridad. Rutas planificadas y comunicación segura.</p>
+          <a href="#contacto" class="service-link">Reservar →</a>
+        </div>
+        <div class="service-card" id="service-tours">
+          <div class="service-icon">🗺</div>
+          <h3>Tours Privados</h3>
+          <p>Descubra destinos con total comodidad y a su propio ritmo, con guía personalizado.</p>
+          <a href="#contacto" class="service-link">Reservar →</a>
+        </div>
+        <div class="service-card" id="service-24h">
+          <div class="service-icon">🌙</div>
+          <h3>Servicio 24/7</h3>
+          <p>Disponibilidad total, cualquier hora del día o noche. Siempre a una llamada de distancia.</p>
+          <a href="#contacto" class="service-link">Reservar →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== POR QUÉ NOSOTROS ========== -->
+  <section id="nosotros" class="section why-section">
+    <div class="why-bg-shapes" aria-hidden="true">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+    </div>
+    <div class="container why-container">
+      <div class="why-text">
+        <span class="section-tag">Por qué elegirnos</span>
+        <h2 class="section-title">La Diferencia <em>Élite</em></h2>
+        <p class="why-desc">No somos simplemente un servicio de transporte. Somos su compañero de confianza en cada trayecto importante, con estándares de lujo que van más allá del vehículo.</p>
+        <div class="why-features">
+          <div class="why-feature" id="feat-punctuality">
+            <div class="feat-icon">⏱</div>
+            <div>
+              <h4>Puntualidad Absoluta</h4>
+              <p>Monitorizamos cada vuelo y tráfico en tiempo real para garantizar llegadas perfectas.</p>
+            </div>
+          </div>
+          <div class="why-feature" id="feat-drivers">
+            <div class="feat-icon">👔</div>
+            <div>
+              <h4>Choferes Certificados</h4>
+              <p>Profesionales con más de 5 años de experiencia, formados en protocolo y discreción.</p>
+            </div>
+          </div>
+          <div class="why-feature" id="feat-fleet">
+            <div class="feat-icon">🚗</div>
+            <div>
+              <h4>Flota Premium</h4>
+              <p>Vehículos de última generación, revisados diariamente y equipados con amenities de lujo.</p>
+            </div>
+          </div>
+          <div class="why-feature" id="feat-privacy">
+            <div class="feat-icon">🔒</div>
+            <div>
+              <h4>Privacidad Total</h4>
+              <p>Absoluta confidencialidad. Sus datos y movimientos permanecen siempre privados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual">
+        <div class="why-card-stack">
+          <div class="why-card wc-1">
+            <div class="wc-icon">⭐</div>
+            <strong>4.9 / 5.0</strong>
+            <span>Valoración media</span>
+          </div>
+          <div class="why-card wc-2">
+            <div class="wc-icon">🕐</div>
+            <strong>99.7%</strong>
+            <span>Puntualidad</span>
+          </div>
+          <div class="why-card wc-3">
+            <div class="wc-icon">🌍</div>
+            <strong>+30</strong>
+            <span>Ciudades cubiertas</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FLOTA ========== -->
+  <section id="flota" class="section fleet-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestra colección</span>
+        <h2 class="section-title">Flota <em>de Lujo</em></h2>
+        <p class="section-desc">Seleccione el vehículo que mejor se adapte a sus necesidades y estilo.</p>
+      </div>
+      <div class="fleet-tabs">
+        <button class="fleet-tab active" data-tab="sedan" id="tab-sedan">Sedán Ejecutivo</button>
+        <button class="fleet-tab" data-tab="suv" id="tab-suv">SUV Premium</button>
+        <button class="fleet-tab" data-tab="van" id="tab-van">Van VIP</button>
+      </div>
+      <div class="fleet-panels">
+        <div class="fleet-panel active" id="panel-sedan">
+          <div class="fleet-img-wrap">
+            <img src="img/sedan_fleet.png" alt="Mercedes S-Class Sedán de lujo" />
+          </div>
+          <div class="fleet-info">
+            <h3>Mercedes-Benz S-Class</h3>
+            <p class="fleet-tagline">La cúspide del confort ejecutivo</p>
+            <ul class="fleet-specs">
+              <li><span>Capacidad</span><strong>3 pasajeros</strong></li>
+              <li><span>Equipaje</span><strong>3 maletas</strong></li>
+              <li><span>Wi-Fi</span><strong>Incluido</strong></li>
+              <li><span>Bebidas</span><strong>Agua mineral y prensa</strong></li>
+              <li><span>Aire acondicionado</span><strong>Doble zona</strong></li>
+            </ul>
+            <a href="#contacto" class="btn btn-gold" id="reserve-sedan">Reservar este vehículo</a>
+          </div>
+        </div>
+        <div class="fleet-panel" id="panel-suv">
+          <div class="fleet-img-wrap">
+            <img src="img/suv_fleet.png" alt="Mercedes GLS SUV de lujo" />
+          </div>
+          <div class="fleet-info">
+            <h3>Mercedes-Benz GLS 600</h3>
+            <p class="fleet-tagline">Presencia imponente, confort supremo</p>
+            <ul class="fleet-specs">
+              <li><span>Capacidad</span><strong>4 pasajeros</strong></li>
+              <li><span>Equipaje</span><strong>5 maletas</strong></li>
+              <li><span>Wi-Fi</span><strong>4G Premium</strong></li>
+              <li><span>Bebidas</span><strong>Minibar completo</strong></li>
+              <li><span>Pantallas</span><strong>Entretenimiento a bordo</strong></li>
+            </ul>
+            <a href="#contacto" class="btn btn-gold" id="reserve-suv">Reservar este vehículo</a>
+          </div>
+        </div>
+        <div class="fleet-panel" id="panel-van">
+          <div class="fleet-img-wrap">
+            <img src="img/van_fleet.png" alt="Mercedes Viano VIP Van" />
+          </div>
+          <div class="fleet-info">
+            <h3>Mercedes-Benz V-Class VIP</h3>
+            <p class="fleet-tagline">Espacio ilimitado para grupos selectos</p>
+            <ul class="fleet-specs">
+              <li><span>Capacidad</span><strong>7 pasajeros</strong></li>
+              <li><span>Equipaje</span><strong>8 maletas</strong></li>
+              <li><span>Wi-Fi</span><strong>4G + Hotspot</strong></li>
+              <li><span>Asientos</span><strong>Capitán reclinables 180°</strong></li>
+              <li><span>Extras</span><strong>Refrigerador y TV</strong></li>
+            </ul>
+            <a href="#contacto" class="btn btn-gold" id="reserve-van">Reservar este vehículo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIOS ========== -->
+  <section id="testimonios" class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Opiniones reales</span>
+        <h2 class="section-title">Lo que dicen <em>nuestros clientes</em></h2>
+      </div>
+      <div class="testimonials-track-wrap">
+        <div class="testimonials-track" id="testimonials-track">
+          <div class="testimonial-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Llevamos usando Élite Transfer para todos nuestros eventos corporativos desde hace 3 años. La puntualidad y discreción son incomparables."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">AM</div>
+              <div>
+                <strong>Alejandro Martín</strong>
+                <span>CEO, Grupo Fortis</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"El transfer al aeropuerto de Sofía fue perfecto. El chófer esperó 45 minutos por el retraso del vuelo sin ningún cargo extra. Servicio de 10."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">IR</div>
+              <div>
+                <strong>Isabelle Renaud</strong>
+                <span>Directora de Marketing, Lvmh</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Usamos la van VIP para nuestra boda y superó todas las expectativas. El interior era una maravilla y el servicio, impecable durante toda la jornada."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">CP</div>
+              <div>
+                <strong>Carlos & Paula</strong>
+                <span>Enlace, Madrid 2025</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Como ejecutivo que viaja constantemente, necesito fiabilidad absoluta. Élite Transfer nunca ha fallado en más de 80 servicios contratados."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">LF</div>
+              <div>
+                <strong>Luis Fernández</strong>
+                <span>Partner, McKinsey & Company</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testi-stars">★★★★★</div>
+            <p class="testi-text">"Reservé el SUV premium para una delegación internacional y el resultado fue extraordinario. Profesionalidad de primer nivel, sin duda alguna."</p>
+            <div class="testi-author">
+              <div class="testi-avatar">MV</div>
+              <div>
+                <strong>María Vázquez</strong>
+                <span>Jefa de Protocolo, Ministerio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-controls">
+        <button class="testi-btn" id="testi-prev" aria-label="Anterior">‹</button>
+        <div class="testi-dots" id="testi-dots"></div>
+        <button class="testi-btn" id="testi-next" aria-label="Siguiente">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section id="contacto" class="section contact-section">
+    <div class="container contact-container">
+      <div class="contact-info">
+        <span class="section-tag">Hablemos</span>
+        <h2 class="section-title">Reserve su <em>Traslado VIP</em></h2>
+        <p>Nuestro equipo de atención personalizada está listo para organizar cada detalle de su viaje.</p>
+        <div class="contact-methods">
+          <a href="tel:+34900123456" class="contact-method" id="contact-phone">
+            <div class="cm-icon">📞</div>
+            <div>
+              <strong>Teléfono</strong>
+              <span>+34 900 123 456</span>
+            </div>
+          </a>
+          <a href="https://wa.me/34900123456" class="contact-method" id="contact-whatsapp">
+            <div class="cm-icon">💬</div>
+            <div>
+              <strong>WhatsApp</strong>
+              <span>Respuesta en menos de 5 min</span>
+            </div>
+          </a>
+          <a href="mailto:reservas@elitetransfer.com" class="contact-method" id="contact-email">
+            <div class="cm-icon">✉</div>
+            <div>
+              <strong>Email</strong>
+              <span>reservas@elitetransfer.com</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre completo</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej: Juan García" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+34 600 000 000" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="correo@empresa.com" required />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="servicio">Tipo de servicio</label>
+              <select id="servicio" name="servicio">
+                <option value="">Seleccione...</option>
+                <option value="aeropuerto">Transfer Aeropuerto</option>
+                <option value="corporativo">Ejecutivo Corporativo</option>
+                <option value="evento">Eventos & Galas</option>
+                <option value="seguridad">Seguridad Ejecutiva</option>
+                <option value="tour">Tour Privado</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="fecha">Fecha del servicio</label>
+              <input type="date" id="fecha" name="fecha" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Detalles adicionales</label>
+            <textarea id="mensaje" name="mensaje" rows="3" placeholder="Cuéntenos más sobre su viaje..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold btn-full" id="submit-form">
+            <span class="btn-text">Solicitar Reserva</span>
+            <span class="btn-icon">→</span>
+          </button>
+          <div class="form-success" id="form-success" style="display:none">
+            <span>✓</span> ¡Solicitud recibida! Le contactaremos en menos de 30 minutos.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">ÉLITE<span class="logo-accent">TRANSFER</span></span>
+        </a>
+        <p>Transporte VIP de alto standing.<br />Su confianza, nuestra razón de ser.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" id="social-ig" aria-label="Instagram">IG</a>
+          <a href="#" class="social-link" id="social-li" aria-label="LinkedIn">LI</a>
+          <a href="#" class="social-link" id="social-wa" aria-label="WhatsApp">WA</a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Servicios</h4>
+        <ul>
+          <li><a href="#servicios">Transfer Aeropuerto</a></li>
+          <li><a href="#servicios">Ejecutivo Corporativo</a></li>
+          <li><a href="#servicios">Eventos & Galas</a></li>
+          <li><a href="#servicios">Seguridad Ejecutiva</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#nosotros">Sobre Nosotros</a></li>
+          <li><a href="#flota">Nuestra Flota</a></li>
+          <li><a href="#testimonios">Testimonios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Aviso Legal</a></li>
+          <li><a href="#">Política de Privacidad</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Términos de Uso</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Élite Transfer. Todos los derechos reservados.</p>
+      <p>Hecho con <span style="color:#b8973a">♦</span> para experiencias extraordinarias</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
