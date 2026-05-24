@@ -1,5 +1,5 @@
 /* ============================================================
-   ÉLITE TRANSFER — script.js
+   OMNIRUTA — script.js
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
