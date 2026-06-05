@@ -1,5 +1,5 @@
 /* ============================================================
-   OMNIRUTA — script.js
+   ELITE TRANSFER — script.js
    ============================================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -137,6 +137,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
+    
+    // Validar si faltan datos obligatorios
+    if (!form.checkValidity()) {
+      form.reportValidity(); // Muestra el mensaje del navegador solicitando los datos
+      return;
+    }
+
     const btn  = form.querySelector('button[type="submit"]');
     btn.disabled = true;
     btn.querySelector('.btn-text').textContent = 'Enviando...';
